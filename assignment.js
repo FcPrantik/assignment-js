@@ -1,3 +1,7 @@
+//https://github.com/FcPrantik/assignment-js
+
+
+
 //1. kilometerToMeter
 function kilometerToMeter(kil){
     var meter = kil*1000;
@@ -14,7 +18,6 @@ function kilometerToMeter(kil){
 
 
 //3. hotelCost (1st 10 days 100tk, 2nd 10 days 80tk, remaining days 50tk)
-
     function hotelCost(day){
         var cost = 0;
         if(day <= 10){
